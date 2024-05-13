@@ -26,7 +26,18 @@ This project demonstrates a simple yet effective object detection system using a
 
  ### Examples:  
 Below are a few examples of object detection results using this code:
+ - Detecting a Pineapple
  <p float="left">
  <img src="./examples/img/Capture20.JPG" alt="pineapple" width="200"/>
- <img src="./examples/img/Capture22.JPG" alt="predictions" width="200"/>
+ <img src="./examples/img/Capture22.JPG" alt="predictions" width="600"/>
  </p>
+  - Detecting Lemons
+  <p float="left">
+ <img src="./examples/img/Capture16.JPG" alt="pineapple" width="200"/>
+ <img src="./examples/img/Capture13.JPG" alt="predictions" width="600"/>
+ </p>
+
+ ### Contributing:  
+Contributions are welcome! Feel free to open issues or pull requests with any suggestions, improvements, or bug fixes.
+### License  
+This project is licensed under the MIT License. See the LICENSE file for details.
