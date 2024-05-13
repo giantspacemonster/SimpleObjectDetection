@@ -27,6 +27,6 @@ This project demonstrates a simple yet effective object detection system using a
  ### Examples:  
 Below are a few examples of object detection results using this code:
  <p float="left">
- <img src="./examples/img/bruno.jpg" alt="drawing" width="200"/>
- <img src="./examples/img/Capture22.jpg" alt="drawing" width="200"/>
+ <img src="./examples/img/Capture20.JPG" alt="pineapple" width="200"/>
+ <img src="./examples/img/Capture22.JPG" alt="predictions" width="200"/>
  </p>
