@@ -19,4 +19,14 @@ This project demonstrates a simple yet effective object detection system using a
  - Download the GoogLeNet CaffeModel from http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel  
 
  - Run the object detection script:  
- `python object_detection.py --image path/to/your/image.jpg --prototxt ./bvlc_googlenet.prototxt --model path/to/model.caffemodel --labels ./synset_words.txt`
+ `python object_detection.py --image path/to/your/image.jpg --prototxt ./bvlc_googlenet.prototxt --model path/to/model.caffemodel --labels ./synset_words.txt`  
+ 
+ ### How it Works:  
+ The code loads an input image and a pre-trained Caffe model along with its associated labels. It preprocesses the image to match the model's input requirements and then performs inference using OpenCV's DNN module. Finally, it overlays the top predictions on the input image and displays the result.  
+
+ ### Examples:  
+Below are a few examples of object detection results using this code:
+ <p float="left">
+ <img src="./examples/img/bruno.jpg" alt="drawing" width="200"/>
+ <img src="./examples/img/Capture22.jpg" alt="drawing" width="200"/>
+ </p>
